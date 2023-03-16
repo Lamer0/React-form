@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #89e7b4, #3ce5ca, #57c6f5);
+  align-items: center;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+.App{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  color:#232323;
+  display: flex;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255,255,255,0.30);
+  border: 1px solid rgba(255,255,255,0.34) ;
+  flex-basis: 400px ;
+  height: 360px;
+  padding: 30px 65px;
+  align-items: center;
+  justify-content: center;
+}
+.Head {
+  font-family: 'Andale Mono', monospace;
+  text-align: center;
+}
+.label {
+  font-family: 'Andale Mono', monospace;
+  display: flex;
+  justify-content: space-between;
+  margin: 6% 0;
+}
+.input{
+  font-family: 'Andale Mono', monospace;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.01);
+  border-radius: 26px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  color: #232323;
+  font-size: 16px;
+  overflow: auto;
+  padding: 15px;
+  width: 254px;
+}
+.button {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(19, 18, 18, 0.75);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  flex-basis:100%;
+  font-size: 14px;
+  height: 55px;
+  color: #3ce5ca;
+}
+.button:last-child:hover{
+  background: #e8f9fa;
+}
+.Error{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  font-family: 'Andale Mono', monospace;
+  font-size: 13px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35,35,35,0.1);
+  margin: 4% 0;
+  color: #f85151;
+}
+
+
